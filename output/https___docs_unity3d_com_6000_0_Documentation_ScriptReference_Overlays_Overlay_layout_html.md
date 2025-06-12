@@ -1,0 +1,18 @@
+* Source: https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlays.Overlay-layout.html
+
+#  [Overlay](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlays.Overlay.html).layout
+Leave feedback
+Suggest a change
+## Success!
+Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.
+Close
+## Submission failed
+For some reason your suggested change could not be submitted. Please <a>try again</a> in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.
+Close
+Your name Your email Suggestion* Submit suggestion
+Cancel
+[Overlays.Layout](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlays.Layout.html) layout; 
+### Description
+The preferred layout for the [Overlay](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlays.Overlay.html).
+All overlays support Panel, while some overlays can also be configured as horizontal or vertical toolbars.
+* * *

@@ -1,0 +1,87 @@
+* Source: https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup.html
+
+# LODGroup
+class in UnityEngine
+/
+Inherits from:[Component](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.html)
+/
+Implemented in:[UnityEngine.CoreModule](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html)
+Leave feedback
+Suggest a change
+## Success!
+Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.
+Close
+## Submission failed
+For some reason your suggested change could not be submitted. Please <a>try again</a> in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.
+Close
+Your name Your email Suggestion* Submit suggestion
+Cancel
+[Switch to Manual](https://docs.unity3d.com/6000.0/Documentation/Manual/class-LODGroup.html "Go to LODGroup Component in the Manual")
+### Description
+LODGroup lets you group multiple Renderers into LOD levels.
+This can be used to switch between different LOD levels at runtime based on size on screen.
+### Static Properties
+Property | Description  
+---|---  
+[crossFadeAnimationDuration](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup-crossFadeAnimationDuration.html) | The cross-fading animation duration in seconds. ArgumentException will be thrown if it is set to zero or a negative value.  
+### Properties
+Property | Description  
+---|---  
+[animateCrossFading](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup-animateCrossFading.html) | Specify if the cross-fading should be animated by time. The animation duration is specified globally as crossFadeAnimationDuration.  
+[enabled](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup-enabled.html) | Allows you to enable or disable the LODGroup.  
+[fadeMode](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup-fadeMode.html) | The LOD fade mode used.  
+[lastLODBillboard](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup-lastLODBillboard.html) | Specify whether the last LOD level is a BillboardRenderer.  
+[localReferencePoint](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup-localReferencePoint.html) | The local reference point against which the LOD distance is calculated.  
+[lodCount](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup-lodCount.html) | The number of LOD levels.  
+[size](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup-size.html) | The size of the LOD object in local space.  
+### Public Methods
+Method | Description  
+---|---  
+[ForceLOD](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup.ForceLOD.html) |   
+[GetLODs](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup.GetLODs.html) | Returns the array of LODs.  
+[RecalculateBounds](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup.RecalculateBounds.html) | Recalculate the bounding region for the LODGroup (Relatively slow, do not call often).  
+[SetLODs](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LODGroup.SetLODs.html) | Set the LODs for the LOD group. This will remove any existing LODs configured on the LODGroup.  
+### Inherited Members
+### Properties
+Property | Description  
+---|---  
+[gameObject](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-gameObject.html) | The game object this component is attached to. A component is always attached to a game object.  
+[tag](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-tag.html) | The tag of this game object.  
+[transform](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-transform.html) | The Transform attached to this GameObject.  
+[hideFlags](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object-hideFlags.html) | Should the object be hidden, saved with the Scene or modifiable by the user?  
+[name](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object-name.html) | The name of the object.  
+### Public Methods
+Method | Description  
+---|---  
+[BroadcastMessage](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.BroadcastMessage.html) | Calls the method named methodName on every MonoBehaviour in this game object or any of its children.  
+[CompareTag](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.CompareTag.html) | Checks the GameObject's tag against the defined tag.  
+[GetComponent](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.GetComponent.html) | Gets a reference to a component of type T on the same GameObject as the component specified.  
+[GetComponentInChildren](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.GetComponentInChildren.html) | Gets a reference to a component of type T on the same GameObject as the component specified, or any child of the GameObject.  
+[GetComponentIndex](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.GetComponentIndex.html) | Gets the index of the component on its parent GameObject.  
+[GetComponentInParent](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.GetComponentInParent.html) | Gets a reference to a component of type T on the same GameObject as the component specified, or any parent of the GameObject.  
+[GetComponents](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.GetComponents.html) | Gets references to all components of type T on the same GameObject as the component specified.  
+[GetComponentsInChildren](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.GetComponentsInChildren.html) | Gets references to all components of type T on the same GameObject as the component specified, and any child of the GameObject.  
+[GetComponentsInParent](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.GetComponentsInParent.html) | Gets references to all components of type T on the same GameObject as the component specified, and any parent of the GameObject.  
+[SendMessage](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.SendMessage.html) | Calls the method named methodName on every MonoBehaviour in this game object.  
+[SendMessageUpwards](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.SendMessageUpwards.html) | Calls the method named methodName on every MonoBehaviour in this game object and on every ancestor of the behaviour.  
+[TryGetComponent](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.TryGetComponent.html) | Gets the component of the specified type, if it exists.  
+[GetInstanceID](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.GetInstanceID.html) | Gets the instance ID of the object.  
+[ToString](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.ToString.html) | Returns the name of the object.  
+### Static Methods
+Method | Description  
+---|---  
+[Destroy](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Destroy.html) | Removes a GameObject, component or asset.  
+[DestroyImmediate](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.DestroyImmediate.html) | Destroys the object obj immediately. You are strongly recommended to use Destroy instead.  
+[DontDestroyOnLoad](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.DontDestroyOnLoad.html) | Do not destroy the target Object when loading a new Scene.  
+[FindAnyObjectByType](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.FindAnyObjectByType.html) | Retrieves any active loaded object of Type type.  
+[FindFirstObjectByType](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.FindFirstObjectByType.html) | Retrieves the first active loaded object of Type type.  
+[FindObjectsByType](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.FindObjectsByType.html) | Retrieves a list of all loaded objects of Type type.  
+[Instantiate](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html) | Clones the object original and returns the clone.  
+[InstantiateAsync](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.InstantiateAsync.html) | Captures a snapshot of the original object (that must be related to some GameObject) and returns the AsyncInstantiateOperation.  
+### Operators
+Operator | Description  
+---|---  
+[bool](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object-operator_Object.html) | Does the object exist?  
+[operator !=](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object-operator_ne.html) | Compares if two objects refer to a different object.  
+[operator ==](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object-operator_eq.html) | Compares two object references to see if they refer to the same object.  
+* * *

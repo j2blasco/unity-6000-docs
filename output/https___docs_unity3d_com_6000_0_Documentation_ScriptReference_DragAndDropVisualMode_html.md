@@ -1,0 +1,27 @@
+* Source: https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DragAndDropVisualMode.html
+
+# DragAndDropVisualMode
+enumeration
+Leave feedback
+Suggest a change
+## Success!
+Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.
+Close
+## Submission failed
+For some reason your suggested change could not be submitted. Please <a>try again</a> in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.
+Close
+Your name Your email Suggestion* Submit suggestion
+Cancel
+### Description
+Visual indication mode for Drag & Drop operation.
+Additional resources: [DragAndDrop](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DragAndDrop.html) class.
+### Properties
+Property | Description  
+---|---  
+[None](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DragAndDropVisualMode.None.html) | No indication (drag should not be performed).  
+[Copy](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DragAndDropVisualMode.Copy.html) | Copy dragged objects.  
+[Link](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DragAndDropVisualMode.Link.html) | Link dragged objects to target.  
+[Move](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DragAndDropVisualMode.Move.html) | Move dragged objects.  
+[Generic](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DragAndDropVisualMode.Generic.html) | Generic drag operation.  
+[Rejected](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DragAndDropVisualMode.Rejected.html) | Rejected drag operation.  
+* * *
