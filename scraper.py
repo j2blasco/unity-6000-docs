@@ -15,7 +15,7 @@ def cleanup_output_folder(output_dir):
     os.makedirs(output_dir, exist_ok=True)
     print(f"Output folder {output_dir} is ready.")
 
-outputDirName = "output"
+outputDirName = "docs"
 
 async def main():
     # Clean up output folder first
